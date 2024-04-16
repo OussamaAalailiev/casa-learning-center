@@ -28,9 +28,12 @@ Text and grey Color: #343a40
 .nav {
   background-color: aqua;
   display: flex;
+  /* Flex wrap could be replaced by @media queries: */
+  flex-wrap: wrap;
   align-items: center;
   gap: 12rem;
   background-color: #f8f9fa;
+  justify-content: space-between;
 }
 .hamburger-menu {
   display: none;
@@ -41,9 +44,6 @@ Text and grey Color: #343a40
 .logo {
   width: 120px;
   border: 4px solid #3e95ec;
-}
-.icon {
-  width: 1.5rem;
 }
 .icon-down-chevron {
   /* fill: #343a40; */
@@ -71,6 +71,8 @@ Text and grey Color: #343a40
   list-style: none;
   /* align-self: center; */
   display: flex;
+  /* Flex wrap could be replaced by @media queries: */
+  flex-wrap: wrap;
   /* justify-content: space-between; */
   gap: 1rem;
   color: #3e95ec;
@@ -82,6 +84,8 @@ Text and grey Color: #343a40
   list-style: none;
   /* align-self: center; */
   display: flex;
+  /* Flex wrap could be replaced by @media queries: */
+  flex-wrap: wrap;
   /* justify-content: space-between; */
   gap: 6rem;
 }
@@ -92,6 +96,8 @@ Text and grey Color: #343a40
 .all-nav-links {
   display: flex;
   flex-direction: column;
+  /* Flex wrap could be replaced by @media queries: */
+  flex-wrap: wrap;
   gap: 2.5rem;
   /* justify-content: space-between; */
 }
@@ -100,6 +106,8 @@ Text and grey Color: #343a40
 }
 .right-links {
   display: flex;
+  /* Flex wrap could be replaced by @media queries: */
+  flex-wrap: wrap;
   /* justify-content: center; */
   gap: 2.5rem;
   /* To position the whole flex box to the left. */
@@ -116,3 +124,8 @@ Text and grey Color: #343a40
 
 /* MEDIA Queries.0 */
 /* Mobile and Tablette: */
+@media (max-width: 767px) {
+  .all-nav-links {
+    display: none;
+  }
+}

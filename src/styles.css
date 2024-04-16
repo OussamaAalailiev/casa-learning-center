@@ -25,4 +25,11 @@ body {
   /* font-family: sans-serif; */
   width: 95%;
   margin: 0 auto;
+  line-height: 1.5;
+  text-align: justify;
+  /* background-color: #dee2e6; */
+  background-color: #f1f3f5;
+}
+.icon {
+  width: 1.5rem;
 }

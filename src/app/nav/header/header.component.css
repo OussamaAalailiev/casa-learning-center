@@ -1,27 +1,35 @@
 /* https://if-maroc.org/casablanca/wp-content/uploads/sites/5/2023/11/Visuel-Site-web-60-ans.jpg */
 section {
   /* position: relative; */
-  height: 240px;
+  /* height: 240px; */
   /* overflow: hidden; */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-}
 
-.header-img {
-  width: 100%;
-  min-height: 33vh;
-  /* background-image: url("https://if-maroc.org/casablanca/wp-content/uploads/sites/5/2023/11/Visuel-Site-web-60-ans.jpg"); */
   /* background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center; */
+
+  /* position: relative; */
+}
+
+.header-img {
+  width: 100%;
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 auto; */
+  min-height: 40vh;
+  /* background-image: url("https://if-maroc.org/casablanca/wp-content/uploads/sites/5/2023/11/Visuel-Site-web-60-ans.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   /* position: absolute; */
   /* style="background-image: url(&quot;https://if-maroc.org/casablanca/wp-content/uploads/sites/5/2022/08/casa2-1024x310-3.png&quot;);" */
   /* background-image: url("https://if-maroc.org/casablanca/wp-content/uploads/sites/5/2022/08/casa2-1024x310-3.png"); */
 }
 
+/* Mobile screen. */
 @media (max-width: 490px) {
   .header-img {
     /* margin-left: 30%;
@@ -31,5 +39,15 @@ section {
     width: 100%;
     height: auto;
     max-height: 500px !important;
+  }
+  .header-img {
+    min-height: 45vh;
+  }
+}
+
+/* Desktop Screen. */
+@media (min-width: 990px) {
+  .header-after-nav {
+    margin-bottom: 12rem;
   }
 }
