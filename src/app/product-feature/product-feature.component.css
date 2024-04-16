@@ -1,0 +1,26 @@
+section {
+  /* margin-top: 1rem; */
+  margin-top: 9rem;
+}
+.grid-1-column {
+  display: grid;
+}
+/* ******************************************************** */
+/* ********** Product (Certifications and More) Card ****** */
+/* ******************************************************** */
+.product-card-image {
+  width: 30%;
+  background-color: #333;
+}
+.product-title-and-description h3 {
+  margin-bottom: 1rem;
+}
+.product-title-and-description p {
+  font-size: 0.8rem;
+}
+.card {
+  display: flex;
+  background-color: #dee2e6;
+  gap: 1rem;
+  align-items: center;
+}
