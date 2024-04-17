@@ -48,6 +48,6 @@ section {
 /* Desktop Screen. */
 @media (min-width: 990px) {
   .header-after-nav {
-    margin-bottom: 12rem;
+    /* margin-bottom: 12rem; */
   }
 }
