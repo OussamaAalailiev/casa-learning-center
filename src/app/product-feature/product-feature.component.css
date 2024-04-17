@@ -6,12 +6,6 @@ section {
 /* ******************************************************** */
 /* ********** Product (Certifications and More) Card ****** */
 /* ******************************************************** */
-.section-products {
-}
-
-.product-card-title {
-  color: #3e95ec;
-}
 
 .product-card-image {
   width: 30%;
@@ -21,6 +15,7 @@ section {
 }
 .product-card-title {
   margin-bottom: 1rem;
+  color: #1971c2;
   /* font-weight: 900; */
 }
 .product-card-description-para {
