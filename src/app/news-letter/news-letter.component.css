@@ -27,16 +27,40 @@ p {
   color: #1971c2;
   font-weight: 700;
 }
+.icon-container {
+  /* position: relative;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid #1971c2; */
+}
 .social-media-icon {
   color: #1971c2;
-  background-color: #d0ebff;
-  padding: 0.4rem;
   width: 2.5rem;
-  border-radius: 1.1rem;
-  border: 2px solid #1971c2;
+  height: 2.5rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  /* background-color: #d0ebff; */
 }
 .news-letter-icon {
   color: #1971c2;
+}
+.a-new-letter:link,
+.a-new-letter:visited {
+  text-decoration: none;
+  cursor: pointer;
+  color: #1971c2;
+}
+.a-new-letter:hover,
+.a-new-letter:active {
+  /* text-decoration: none;
+  cursor: pointer; */
+  color: #339af0;
+}
+.social-media-icon:hover,
+.social-media-icon:active {
+  background-color: #1971c2;
+  color: #fff;
 }
 
 /* ****************************** */

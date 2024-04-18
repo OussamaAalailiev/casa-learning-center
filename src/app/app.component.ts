@@ -5,6 +5,7 @@ import { ProductFeatureComponent } from './product/product.component';
 import { SectionEventsComponent } from './section-events/section-events.component';
 import { FeatureComponent } from './feature/feature.component';
 import { NewsLetterComponent } from './news-letter/news-letter.component';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { NewsLetterComponent } from './news-letter/news-letter.component';
     SectionEventsComponent,
     FeatureComponent,
     NewsLetterComponent,
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
