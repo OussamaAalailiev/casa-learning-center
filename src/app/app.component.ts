@@ -4,6 +4,7 @@ import { NavComponent } from './nav/nav.component';
 import { ProductFeatureComponent } from './product/product.component';
 import { SectionEventsComponent } from './section-events/section-events.component';
 import { FeatureComponent } from './feature/feature.component';
+import { NewsLetterComponent } from './news-letter/news-letter.component';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { FeatureComponent } from './feature/feature.component';
     ProductFeatureComponent,
     SectionEventsComponent,
     FeatureComponent,
+    NewsLetterComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
