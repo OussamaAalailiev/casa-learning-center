@@ -1,0 +1,125 @@
+.features {
+  margin-top: 5rem;
+  padding: 1rem;
+  background-color: #fff;
+}
+.grid-2-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  row-gap: 1rem;
+  padding: 1rem;
+}
+.feature-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 0.1rem solid #f1f3f5;
+  padding-bottom: 1rem;
+}
+.feature-img {
+  width: 17%;
+  overflow: hidden;
+  height: auto;
+  /* object-fit: cover; */
+  /* object-fit: cover; */
+  /* background-color: #333; */
+}
+.feature-text-btn {
+  width: 75%;
+  padding: 0 0.7rem;
+}
+h2,
+h3 {
+  color: #1971c2;
+}
+.features-para {
+  color: #868e96;
+  font-weight: 500;
+  font-size: 1.2rem;
+  width: 50%;
+  margin: 0.3rem 0 2rem 0;
+}
+.feature-p {
+  color: #868e96;
+  /* font-size: 1.2rem; */
+  margin: 0.5rem 0;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #868e96;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.btn-and-icon {
+  /* position: absolute;
+  bottom: 1rem;
+  left: 2.5rem; */
+  display: flex;
+  align-items: center;
+  /* margin-left: auto; */
+  gap: 0.3rem;
+  cursor: pointer;
+  /* width: 30%;
+  align-self: start; */
+}
+.icon-right-chevron {
+  stroke: #868e96;
+  width: 0.8rem;
+  fill: #868e96;
+  align-self: center;
+}
+.btn-and-icon p {
+  align-self: flex-start;
+}
+
+@media (max-width: 767px) {
+  .grid-2-col {
+    grid-template-columns: 1fr;
+    /* column-gap: 2rem;
+    row-gap: 1rem;  */
+    padding: 1rem;
+  }
+  .features-para {
+    color: #868e96;
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 0.3rem 0 2rem 0;
+  }
+  .feature-img {
+    width: 22%;
+    overflow: hidden;
+    height: auto;
+    /* object-fit: cover; */
+    /* object-fit: cover; */
+    /* background-color: #333; */
+  }
+  .feature-text-btn {
+    width: 70%;
+    padding: 0 0.7rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1020px) {
+  .features-para {
+    color: #868e96;
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 0.3rem 0 2rem 0;
+  }
+  .feature-img {
+    width: 22%;
+    overflow: hidden;
+    height: auto;
+    /* object-fit: cover; */
+    /* object-fit: cover; */
+    /* background-color: #333; */
+  }
+  .feature-text-btn {
+    width: 70%;
+    padding: 0 0.7rem;
+  }
+}
